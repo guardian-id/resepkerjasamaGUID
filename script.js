@@ -55,7 +55,7 @@ sendBtn.addEventListener('click', async () => {
         storeName: store,
         patientName: pasien,
         photo: base64String, // String Base64
-        fileName: `FeedbackResep_${mainID}_${Date.now()}.jpg`
+        fileName: `${mainID}_${Date.now()}.jpg`
     };
 
     sendBtn.disabled = true;
